@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+  <div class="index">
+    <div class="unav">
+        <img src="/logo.png" alt="" width="150px" class="logo" >
+        <input type="text" class="search" placeholder="Search">
+        <button class="search-button"><span class="material-symbols-outlined">search</span></button>
+        <a href="" ><span class="material-symbols-outlined" id="cart">shopping_cart</span> </a>
+        <a href="" class="profie"><span id ="circle" class="material-symbols-outlined">account_circle</span></a>
+    </div>
+    <div class="lnav">
+      <ul>
+        <a href="/index.htm"><li>Home</li></a>
+        <a href="/fishes.html"><li>Fishes</li></a>
+        <a href="/prawns.html"><li>Prawns</li></a>
+        <a href="/crabs.html"><li>Crabs & Lobsters</li></a>
+        <a href="/other.html"><li>Others</li></a>
+      </ul>
+    </div>
+  </div>
+  <div class="carousel">
+      
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="landing-page-Recovered_12.jpg" alt="Los Angeles" style="width:100%;height: 50%;">
+        </div>
+  
+        <div class="item">
+          <img src="banner.jpg" alt="Chicago" style="width:100%;height: 10%;">
+        </div>
+      
+        <div class="item">
+          <img src="Banner3.jpg" alt="New york" style="width:100%;">
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <h1>Today's Deals</h1>
+  <div class="todays-deal">
+    
+    <div class="card">
+      <div class="cardimg">
+        <img src="/blackpomfret.jpg" alt="" width="300px" class="card-img">
+      </div>
+      <h2>White Pomfret</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+        <h2>₹550/500g</h2>
+        <button id="add">Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardimg">
+        <img src="/seerfish.jpg" alt="" width="300px" height="200px" class="card-img">
+      </div>
+      <h2>Seer Fish</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+       <h2>₹700/500g</h2>
+       <button id="add">Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardimg">
+        <img src="/prawns.jpeg" alt="" width="310px" class="card-img">
+      </div>
+      <h2>White Prawn</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+        <h2>₹400/500g</h2>
+        <button>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="todays-deal">
+    
+    <div class="card">
+      <div class="cardimg">
+        <img src="/barracuda.jpg" alt="" width="300px" class="card-img">
+      </div>
+      <h2>Barracuda</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+        <h2>₹550/500g</h2>
+        <button>Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardimg">
+        <img src="/black-vavval.jpg" alt="" width="300px" height="200px" class="card-img">
+      </div>
+      <h2>Black Pomfret</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+       <h2>₹700/500g</h2>
+       <button>Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardimg">
+        <img src="/Blue-Crab-medium.jpg" alt="" width="310px" class="card-img">
+      </div>
+      <h2>Blue Crab</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+        <h2>₹400/500g</h2>
+        <button>Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <h1>Best Seller</h1>
+  <div class="todays-deal">
+    
+    <div class="card">
+      <div class="cardimg">
+        <img src="/horse_mackerel_whole_1_1.jpg" alt="" width="300px" class="card-img">
+      </div>
+      <h2>Horse Mackerel</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+        <h2>₹550/500g</h2>
+        <button>Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardimg">
+        <img src="/squid.jpg" alt="" width="300px" height="200px" class="card-img">
+      </div>
+      <h2>Squid</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+       <h2>₹700/500g</h2>
+       <button>Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="cardimg">
+        <img src="/red-snapper_big.jpg" alt="" width="310px" class="card-img">
+      </div>
+      <h2>Red Snapper</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="but">
+        <h2>₹400/500g</h2>
+        <button>Add to cart</button>
+      </div>
+    </div>
+  </div>
+<br><br>
+</body>
+<footer>
+  <div class="row">
+    <div class="col-sm-3">
+      <h4>Quicklink</h4>
+      <ul>
+        <a href=""><li>Home</li></a>
+        <a href=""><li>Fishes</li></a>
+        <a href=""><li>Prawns</li></a>
+        <a href=""><li>Crabs & Lobsters</li></a>
+        <a href=""><li>Other</li></a>
+      </ul>
+    </div>
+    <div class="col-sm-3">
+      <p>If any query, send us a mail to seafresh@gmail.com</p>
+    </div>
+    <div class="col-sm-3" id="soc">
+      <h4>Follow us</h4>
+      <div class="soc" style="display: flex; align-items: center;justify-content: space-evenly;">
+        <div class="face"><img src="/simple-icons_facebook.png" alt=""></div>
+        <div class="inst"><img src="/fa6-brands_square-instagram.png" alt=""></div>
+        <div class="twit"><img src="/cib_twitter.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+ 
+</footer>
+</html>
+<script>
+    // let add = document.querySelector('#add');
+    // document.addEventListener("click", function(){
+    //   add.textContent = 'Added ✔' ;
+    //  });
+    $(document).ready(function(){
+      $('*').click(function(){
+        document.querySelector('#add').textContent = 'added';
+      })
+    })
+   
+   </script>
